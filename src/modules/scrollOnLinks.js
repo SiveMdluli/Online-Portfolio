@@ -1,4 +1,3 @@
-//
 import { on } from './eventListeners.js';
 import { select } from './selectors.js';
 import { scrollto } from './scrolling.js';

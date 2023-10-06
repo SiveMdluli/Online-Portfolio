@@ -1,4 +1,3 @@
-// typedEffect.js
 import Typed from 'typed.js';
 import { select } from './selectors.js';
 

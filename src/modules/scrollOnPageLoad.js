@@ -1,4 +1,3 @@
-//
 import { scrollto } from './scrolling.js';
 import { select } from './selectors.js';
 

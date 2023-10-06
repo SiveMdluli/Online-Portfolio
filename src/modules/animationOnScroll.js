@@ -1,4 +1,3 @@
-// animationOnScroll.js
 import AOS from 'aos';
 
 export const initAnimationOnScroll = () => {
