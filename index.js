@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import './style.css';
 import { initNavbar, navbarlinks } from './modules/navbar.js';
 import { initMobileNav } from './modules/mobileNav.js';
