@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: './index.js',
 
   devServer: {
     static: './dist',
@@ -12,7 +12,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
-      template: './src/index.html',
+      template: './index.html',
     }),
   ],
 
@@ -39,13 +39,12 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader', // Add Babel for transpilation if needed
+          loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
           },
         },
       },
-      // Add more rules for handling other asset types if needed
     ],
   },
 };
