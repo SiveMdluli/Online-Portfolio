@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: '/index.js',
+  entry: './index.js',
 
   devServer: {
     static: './dist',
@@ -13,7 +13,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
-      template: '/index.html',
+      template: './index.html',
       filename: 'index.html',
     }),
     new CleanWebpackPlugin(),
