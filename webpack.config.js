@@ -1,9 +1,10 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './index.js',
+  entry: '/index.js',
 
   devServer: {
     static: './dist',
@@ -12,13 +13,14 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
-      template: './index.html',
+      template: '/index.html',
+      filename: 'index.html',
     }),
+    new CleanWebpackPlugin(),
   ],
 
   output: {
     filename: '[name].js',
-    publicPath: '/',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
@@ -34,6 +36,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
+        exclude: /node_modules/,
         use: ['style-loader', 'css-loader'],
       },
       {
