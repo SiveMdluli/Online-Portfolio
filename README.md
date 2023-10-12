@@ -1,6 +1,3 @@
-# Online-Portfolio
-Aspiring Front-End Dev 🌟 | Crafting captivating web experiences 🚀 | Open to opportunities 👋 | Let's build together! 🌐 #WebDev #Portfolio
-
 
 <h1 align="center">
   <img src="your-logo.png" alt="Portfolio Logo" width="200">

@@ -264,7 +264,6 @@ h6 {
     margin-left: 0;
   }
 }
-/* Implement Responsiveness for sections in the end */
 
 section {
   padding: 60px 0;
@@ -384,7 +383,6 @@ section {
   background-color: #149ddd;
 }
 
-/* New skills section: */
 
 /* Resume Styles */
 .resume .resume-title {
@@ -446,7 +444,6 @@ section {
 }
 
 /* Portfolio */
-
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
