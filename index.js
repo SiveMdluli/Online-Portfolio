@@ -21,8 +21,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initSkillsAnimation();
   initPortfolio();
   initLightbox();
-  initPortfolioDetailsSlider();
   initAnimationOnScroll();
-  initPureCounter();
-  initializeModal();
 });

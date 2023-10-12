@@ -1,4 +1,3 @@
-// lightbox.js
 import GLightbox from 'glightbox';
 
 export const initLightbox = () => {

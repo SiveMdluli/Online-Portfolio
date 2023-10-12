@@ -1,4 +1,3 @@
-//
 import { select } from './selectors.js';
 
 export const on = (type, el, listener, all = false) => {

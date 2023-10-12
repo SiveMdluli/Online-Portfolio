@@ -1,4 +1,3 @@
-//
 import Isotope from 'isotope-layout';
 import AOS from 'aos';
 import { on } from './eventListeners.js';
