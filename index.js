@@ -9,7 +9,6 @@ import { initPortfolio } from './modules/portfolio.js';
 import { initLightbox } from './modules/lightbox.js';
 import { initAnimationOnScroll } from './modules/animationOnScroll.js';
 
-// To ensure that it runs after the HTML document has fully loaded
 document.addEventListener('DOMContentLoaded', () => {
   initNavbar();
   initMobileNav();
