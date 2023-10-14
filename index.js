@@ -1,4 +1,3 @@
-import './style.css';
 import { initNavbar } from './modules/navbar.js';
 import { initMobileNav } from './modules/mobileNav.js';
 import { initScrollOnLinks } from './modules/scrollOnLinks.js';
@@ -8,6 +7,7 @@ import { initSkillsAnimation } from './modules/skillsAnimation.js';
 import { initPortfolio } from './modules/portfolio.js';
 import { initLightbox } from './modules/lightbox.js';
 import { initAnimationOnScroll } from './modules/animationOnScroll.js';
+import './style.css?v=1.0';
 
 // To ensure that it runs after the HTML document has fully loaded
 document.addEventListener('DOMContentLoaded', () => {
