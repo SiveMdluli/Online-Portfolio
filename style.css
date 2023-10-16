@@ -543,6 +543,10 @@ section {
 
 /* Modal Styles */
 
+.modal {
+  z-index: 9999;
+}
+
 .modal-content {
   display: flex;
   flex-direction: column;
@@ -602,6 +606,7 @@ section {
 
 .tools-buttons-cont h5 {
   font-weight: bold;
+  font-size: 20px;
 }
 
 /* Contact Section */
