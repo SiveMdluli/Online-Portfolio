@@ -294,6 +294,49 @@
             </div>
         </section>
 
+        <!-- Modal Template (Single Image) -->
+        <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <h3 id="modalTitle"></h3>
+
+                                <div class="modal-img-description-cont col-md-6">
+                                    <img src="" alt="Image" class="img-fluid"
+                                        style="max-height: 40vh; width: 24rem; border-radius: 5px;">
+                                    <h3 class="modal-description-title mt-3">Description</h3>
+                                    <p></p>
+                                </div>
+
+                                <div class="tools-buttons-cont col-md-6">
+                                    <h5>Languages & Tools:</h5>
+                                    <ul></ul>
+                                    <div class="modal-btn-contaner text-center">
+                                        <a href="#" id="source-button" class="btn btn-primary modal-button"
+                                            title="Source Code">
+                                            Source Code<i class="fab fa-github ms-2"></i>
+                                        </a>
+
+                                        <a href="#" id="live-button" class="btn btn-primary modal-button"
+                                            title="Live Version">
+                                            See Live<i class="fas fa-eye ms-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Portfolio Section -->
         <section id="portfolio" class="portfolio section-bg">
             <div class="container">
@@ -318,7 +361,11 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
                             <img src="https://images.unsplash.com/photo-1673379324638-1b0cc40f4bbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5NjQxNTg2Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                                class="img-fluid" alt="">
+                                class="img-fluid" alt=""
+                                data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis molestias quibusdam, nisi ducimus aut sapiente dolorem possimus, ullam aspernatur debitis harum commodi modi labore eos nam excepturi officiis nemo soluta?"
+                                data-build-with="HTML, CSS, JavaScript, webpack, GitHub, Sass"
+                                data-github-link="https://github.com/SiveMdluli/"
+                                data-live-link="https://sivemdluli.github.io/" data-project-name="Leaderboard">
                             <div class="portfolio-links">
                                 <a href="#" title="See Live">
                                     <i class="fas fa-eye"></i>
@@ -334,7 +381,11 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-favourites">
                         <div class="portfolio-wrap">
                             <img src="https://plus.unsplash.com/premium_photo-1682621097202-eca012076ff2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5NjQxNTk4Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                                class="img-fluid" alt="">
+                                class="img-fluid" alt=""
+                                data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis molestias quibusdam, nisi ducimus aut sapiente dolorem possimus, ullam aspernatur debitis harum commodi modi labore eos nam excepturi officiis nemo soluta?"
+                                data-build-with="HTML, CSS, JavaScript"
+                                data-github-link="https://github.com/SiveMdluli/"
+                                data-live-link="https://sivemdluli.github.io/" data-project-name="Mabhekiso Website">
                             <div class="portfolio-links">
                                 <a href="#" title="See Live">
                                     <i class="fas fa-eye"></i>
@@ -350,7 +401,11 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
                             <img src="https://images.unsplash.com/photo-1680630036730-2445c1364fec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5NjQxNjA2MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                                class="img-fluid" alt="">
+                                class="img-fluid" alt=""
+                                data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis molestias quibusdam, nisi ducimus aut sapiente dolorem possimus, ullam aspernatur debitis harum commodi modi labore eos nam excepturi officiis nemo soluta?"
+                                data-build-with="HTML, CSS, JavaScript"
+                                data-github-link="https://github.com/SiveMdluli/"
+                                data-live-link="https://sivemdluli.github.io/" data-project-name="Awesome Books">
                             <div class="portfolio-links">
                                 <a href="#" title="See Live">
                                     <i class="fas fa-eye"></i>
@@ -366,7 +421,11 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-favourites">
                         <div class="portfolio-wrap">
                             <img src="https://images.unsplash.com/photo-1694894493888-1f5b4b3747de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5NTk2MDIxNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                                class="img-fluid" alt="">
+                                class="img-fluid" alt=""
+                                data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis molestias quibusdam, nisi ducimus aut sapiente dolorem possimus, ullam aspernatur debitis harum commodi modi labore eos nam excepturi officiis nemo soluta?"
+                                data-build-with="HTML, CSS, JavaScript"
+                                data-github-link="https://github.com/SiveMdluli/"
+                                data-live-link="https://sivemdluli.github.io/" data-project-name="Glozzom">
                             <div class="portfolio-links">
                                 <a href="#" title="See Live">
                                     <i class="fas fa-eye"></i>
@@ -381,7 +440,11 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-favourites">
                         <div class="portfolio-wrap">
                             <img src="https://plus.unsplash.com/premium_photo-1682621097202-eca012076ff2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5NjQxNTk4Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                                class="img-fluid" alt="">
+                                class="img-fluid" alt=""
+                                data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis molestias quibusdam, nisi ducimus aut sapiente dolorem possimus, ullam aspernatur debitis harum commodi modi labore eos nam excepturi officiis nemo soluta?"
+                                data-build-with="HTML, CSS, JavaScript"
+                                data-github-link="https://github.com/SiveMdluli/"
+                                data-live-link="https://sivemdluli.github.io/" data-project-name="To Do List">
                             <div class="portfolio-links">
                                 <a href="#" title="See Live">
                                     <i class="fas fa-eye"></i>
@@ -397,7 +460,11 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
                             <img src="https://images.unsplash.com/photo-1686367134749-6795adf7f2ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5NjUwMTU5Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                                class="img-fluid" alt="">
+                                class="img-fluid" alt=""
+                                data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis molestias quibusdam, nisi ducimus aut sapiente dolorem possimus, ullam aspernatur debitis harum commodi modi labore eos nam excepturi officiis nemo soluta?"
+                                data-build-with="HTML, CSS, JavaScript"
+                                data-github-link="https://github.com/SiveMdluli/"
+                                data-live-link="https://sivemdluli.github.io/" data-project-name="Memory Game">
                             <div class="portfolio-links">
                                 <a href="#" title="See Live">
                                     <i class="fas fa-eye"></i>
@@ -413,7 +480,11 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-favourites">
                         <div class="portfolio-wrap">
                             <img src="https://images.unsplash.com/photo-1665651134211-a9535abff4fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5NjUwMTYzNw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                                class="img-fluid" alt="">
+                                class="img-fluid" alt=""
+                                data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis molestias quibusdam, nisi ducimus aut sapiente dolorem possimus, ullam aspernatur debitis harum commodi modi labore eos nam excepturi officiis nemo soluta?"
+                                data-build-with="HTML, CSS, JavaScript"
+                                data-github-link="https://github.com/SiveMdluli/"
+                                data-live-link="https://sivemdluli.github.io/" data-project-name="Looplab">
                             <div class="portfolio-links">
                                 <a href="#" title="See Live">
                                     <i class="fas fa-eye"></i>
@@ -429,7 +500,11 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-favourites">
                         <div class="portfolio-wrap">
                             <img src="https://images.unsplash.com/photo-1680006152319-9bde494749f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5NjUwMTcwMw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                                class="img-fluid" alt="">
+                                class="img-fluid" alt=""
+                                data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis molestias quibusdam, nisi ducimus aut sapiente dolorem possimus, ullam aspernatur debitis harum commodi modi labore eos nam excepturi officiis nemo soluta?"
+                                data-build-with="HTML, CSS, JavaScript"
+                                data-github-link="https://github.com/SiveMdluli/"
+                                data-live-link="https://sivemdluli.github.io/" data-project-name="Portfolio Grid">
                             <div class="portfolio-links">
                                 <a href="#" title="See Live">
                                     <i class="fas fa-eye"></i>
@@ -445,7 +520,11 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-favourites">
                         <div class="portfolio-wrap">
                             <img src="https://images.unsplash.com/photo-1571195390181-9d2d667e1245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyMzE0NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
-                                class="img-fluid" alt="">
+                                class="img-fluid" alt=""
+                                data-description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis molestias quibusdam, nisi ducimus aut sapiente dolorem possimus, ullam aspernatur debitis harum commodi modi labore eos nam excepturi officiis nemo soluta?"
+                                data-build-with="HTML, CSS, JavaScript"
+                                data-github-link="https://github.com/SiveMdluli/"
+                                data-live-link="https://sivemdluli.github.io/" data-project-name="Mizuxe">
                             <div class="portfolio-links">
                                 <a href="#" title="See Live">
                                     <i class="fas fa-eye"></i>
@@ -504,7 +583,7 @@
                     </div>
 
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="https://formspree.io/f/mnqygppw" method="post" role="form" class="form-container">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Name</label>
