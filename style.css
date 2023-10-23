@@ -798,7 +798,7 @@ section {
   padding: 60px 0;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
-  background-color: #202126;
+  background-color: #2f3037;
   padding: 7rem 0;
   color: #b4b0b0;
   font-size: 16px;
@@ -822,7 +822,7 @@ section {
   position: absolute;
   width: 45px;
   height: 3px;
-  background: #173b6c;
+  background: #149ddd;
   margin-top: 2.9rem;
 }
 
@@ -868,9 +868,9 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
-  border-radius: 50%;
+  border-radius: 20%;
   padding: 5px;
   font-size: 24px;
   display: none;
