@@ -8,6 +8,7 @@ import { initSkillsAnimation } from './modules/skillsAnimation.js';
 import { initPortfolio } from './modules/portfolio.js';
 import { initLightbox } from './modules/lightbox.js';
 import { initAnimationOnScroll } from './modules/animationOnScroll.js';
+import openResume from './modules/openResume.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   initNavbar();
@@ -19,4 +20,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initPortfolio();
   initLightbox();
   initAnimationOnScroll();
+  openResume();
 });
