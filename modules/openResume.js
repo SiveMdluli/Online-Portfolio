@@ -4,7 +4,7 @@ const openResume = () => {
   resumeButtons.forEach((button) => {
     button.addEventListener('click', () => {
       window.open(
-        'https://drive.google.com/file/d/1aYNfedUhNAt7aLj0mwl1z_lFpjeFWbq9/view?usp=sharing',
+        'https://drive.google.com/file/d/1coY7qGQYepZD0GJGNsmMs2yh6Bq5u-QK/view?usp=sharing',
         '_blank'
       );
     });
