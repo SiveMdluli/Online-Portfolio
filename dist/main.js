@@ -75,7 +75,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// ES6 JavaScript to open your resume in a new tab/window when the button is clicked\r\nconst openResume = () => {\r\n  const resumeButton = document.getElementById('resume-button');\r\n\r\n  resumeButton.addEventListener('click', () => {\r\n    window.open(\r\n      'https://drive.google.com/file/d/1aYNfedUhNAt7aLj0mwl1z_lFpjeFWbq9/view?usp=sharing',\r\n      '_blank'\r\n    );\r\n  });\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (openResume);\r\n\n\n//# sourceURL=webpack://webpack-boilerplate/./modules/openResume.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst openResume = () => {\r\n  const resumeButtons = document.querySelectorAll('.resume-button');\r\n\r\n  resumeButtons.forEach((button) => {\r\n    button.addEventListener('click', () => {\r\n      window.open(\r\n        'https://drive.google.com/file/d/1aYNfedUhNAt7aLj0mwl1z_lFpjeFWbq9/view?usp=sharing',\r\n        '_blank'\r\n      );\r\n    });\r\n  });\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (openResume);\r\n\n\n//# sourceURL=webpack://webpack-boilerplate/./modules/openResume.js?");
 
 /***/ }),
 
