@@ -3,10 +3,7 @@ const openResume = () => {
 
   resumeButtons.forEach((button) => {
     button.addEventListener('click', () => {
-      window.open(
-        'https://drive.google.com/file/d/1coY7qGQYepZD0GJGNsmMs2yh6Bq5u-QK/view?usp=sharing',
-        '_blank'
-      );
+      window.open('https://sivemdluli.github.io/Resume/');
     });
   });
 };
